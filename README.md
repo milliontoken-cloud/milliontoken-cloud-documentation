@@ -33,6 +33,7 @@ All Services are currently in development !
 
 ### Support the project
 
+The services on milliontoken.cloud are free for everyone to use.  
 If you like the project and want to give a kidney or two, don't hesitate to make a donation to the developer!
 
 #### ETH \(ERC20 / BEP20\) 
