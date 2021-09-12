@@ -118,9 +118,9 @@ Get the meme image by id.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/memes/:name\_slug" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/memes/:slug" %}
 {% api-method-summary %}
-Get the meme image by Slug Name
+Get the meme image by Slug
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -130,8 +130,8 @@ Get the meme image by Slug Name
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="name\_slug" type="string" required=false %}
-Get the meme image by slug name.
+{% api-method-parameter name="slug" type="string" required=false %}
+Get the meme image by slug.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}

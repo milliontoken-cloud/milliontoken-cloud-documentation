@@ -10,7 +10,7 @@ Use the API to know if the current wallet address own an NFTs on the blockchain.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% api-method method="get" host="https://api.million.cloud" path="/v1/million-nfts" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/million-nfts" %}
 {% api-method-summary %}
 Million NFTs References
 {% endapi-method-summary %}
@@ -43,7 +43,7 @@ Get the NFTs references only for a specified artist.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/v1/million-nfts/artists" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/million-nfts/artists" %}
 {% api-method-summary %}
 Million NFTs Artists
 {% endapi-method-summary %}

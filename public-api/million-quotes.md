@@ -15,6 +15,13 @@ This endpoint allows you to get free cakes.
 
 {% api-method-spec %}
 {% api-method-request %}
+{% api-method-query-parameters %}
+{% api-method-parameter name="all" type="boolean" required=false %}
+Get all the quotes data columns.  
+Default is false.
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -48,9 +55,9 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/:id" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/:slug" %}
 {% api-method-summary %}
-Get a Quote by ID
+Get a Quote by Slug
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -60,8 +67,8 @@ Get a Quote by ID
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-Get a Quote by ID
+{% api-method-parameter name="slug" type="string" required=false %}
+Get a Quote by slug
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
@@ -80,9 +87,9 @@ Get a Quote by ID
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/:slug" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/:id" %}
 {% api-method-summary %}
-Get a Quote by Slug
+Get a Quote by ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -92,8 +99,8 @@ Get a Quote by Slug
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="slug" type="string" required=false %}
-Get a Quote by slug
+{% api-method-parameter name="" type="string" required=false %}
+Get a Quote by ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}

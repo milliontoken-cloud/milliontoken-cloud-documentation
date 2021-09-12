@@ -2,7 +2,7 @@
 description: Access the Million Token Holders Data.
 ---
 
-# Holders
+# Million Holders
 
 {% hint style="warning" %}
 Features aren't implemented yet. Next release will come soon !
