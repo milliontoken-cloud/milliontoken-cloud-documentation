@@ -1,14 +1,14 @@
 ---
-description: API Endpoints concerning the Million Token holders.
+description: Access the Million Token Holders Data.
 ---
 
-# Holders
+# Million Holders
 
 {% hint style="warning" %}
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/v1/holders" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/holders" %}
 {% api-method-summary %}
 Million Token Holders List
 {% endapi-method-summary %}
@@ -73,7 +73,7 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/v1/holders/:address" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/holders/:address" %}
 {% api-method-summary %}
 Million Token Holder Details
 {% endapi-method-summary %}

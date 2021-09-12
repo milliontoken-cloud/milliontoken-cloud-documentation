@@ -1,16 +1,14 @@
 ---
-description: >-
-  API Endpoints concerning the Million Token Liquidity & Pools for each
-  blockchain.
+description: Access the Million Token Liquidity Data for each blockchain.
 ---
 
-# Liquidity Pools
+# Million Liquidity Pools
 
 {% hint style="warning" %}
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/v1/liquidity" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/liquidity" %}
 {% api-method-summary %}
 Total Liquidity amounts per blockchain
 {% endapi-method-summary %}
@@ -49,7 +47,7 @@ parameter's list: eth, ether, ethereum, sol, solana, matic, polygon, ada, cardan
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/v1/liquidity-pairs" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/liquidity-pairs" %}
 {% api-method-summary %}
 Liquidity Pairs per blockchain
 {% endapi-method-summary %}

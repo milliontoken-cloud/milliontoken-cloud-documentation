@@ -10,20 +10,23 @@
 
 ## Public API
 
-* [Holders](public-api/holders.md)
-* [Liquidity Pools](public-api/liquidity-pools.md)
+* [Million Holders](public-api/million-holders.md)
+* [Million Liquidity Pools](public-api/million-liquidity-pools.md)
 * [Million NFTs](public-api/million-nfts.md)
 * [Million Memes](public-api/million-memes.md)
-* [Million Community](public-api/million-community.md)
+* [Million Quotes](public-api/million-quotes.md)
+* [Million Influencers](public-api/million-influencers.md)
+* [Million Community Projects](public-api/million-community-projects.md)
 
-## Third Party API
+---
 
-* [Etherscan](third-party-api/etherscan.md)
-* [BscScan](third-party-api/bscscan.md)
-* [Explorer Solana](third-party-api/explorer-solana.md)
-* [Cardanoscan \(coming soon ?\)](third-party-api/cardanoscan-coming-soon.md)
-* [CoinGecko](third-party-api/coingecko.md)
-* [Bloxy](third-party-api/bloxy.md)
+* [Third Party API](third-party-api/README.md)
+  * [Etherscan](third-party-api/etherscan.md)
+  * [Solana Explorer](third-party-api/solana-explorer.md)
+  * [BscScan](third-party-api/bscscan.md)
+  * [Cardanoscan \(coming soon ?\)](third-party-api/cardanoscan.md)
+  * [CoinGecko](third-party-api/coingecko.md)
+  * [Bloxy](third-party-api/bloxy.md)
 
 ## Links
 
@@ -32,4 +35,8 @@
 ## Updates
 
 * [Changelog](updates/changelog.md)
+
+---
+
+* [Donations](donations.md)
 

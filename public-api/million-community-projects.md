@@ -1,14 +1,14 @@
 ---
-description: Get data about the community Projects.
+description: Access data about the community Projects.
 ---
 
-# Million Community
+# Million Community Projects
 
 {% hint style="warning" %}
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/v1/community-projects" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/community-projects" %}
 {% api-method-summary %}
 Community projects List
 {% endapi-method-summary %}
@@ -80,7 +80,7 @@ Could not find a cake matching this query.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/v1/community-projects/:id" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/community-projects/:id" %}
 {% api-method-summary %}
 Community project by ID
 {% endapi-method-summary %}
@@ -137,7 +137,7 @@ The id for a specific community project.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/v1/community-projects/:name\_slug" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/community-projects/:slug" %}
 {% api-method-summary %}
 Community project by Slug Name
 {% endapi-method-summary %}
@@ -149,7 +149,7 @@ Community project by Slug Name
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="name\_slug" type="string" required=false %}
+{% api-method-parameter name="slug" type="string" required=false %}
 The slug name for a specific community project.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
