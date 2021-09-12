@@ -1,8 +1,8 @@
 ---
-description: Get data about the community Projects.
+description: Access data about the community Projects.
 ---
 
-# Million Community
+# Million Community Projects
 
 {% hint style="warning" %}
 Features aren't implemented yet. Next release will come soon !

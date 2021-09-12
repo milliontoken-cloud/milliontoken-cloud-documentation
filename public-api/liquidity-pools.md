@@ -1,7 +1,5 @@
 ---
-description: >-
-  API Endpoints concerning the Million Token Liquidity & Pools for each
-  blockchain.
+description: Access the Million Token Liquidity Data for each blockchain.
 ---
 
 # Liquidity Pools

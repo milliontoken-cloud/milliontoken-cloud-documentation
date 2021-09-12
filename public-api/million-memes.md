@@ -1,5 +1,5 @@
 ---
-description: The idea is to give access to a Millions Memes collection.
+description: Access the Million Token Memes collection.
 ---
 
 # Million Memes
@@ -8,7 +8,7 @@ description: The idea is to give access to a Millions Memes collection.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% api-method method="get" host="https://meme.million.cloud" path="/random" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/memes/random" %}
 {% api-method-summary %}
 Get a Random Meme Image for Million Token
 {% endapi-method-summary %}
@@ -53,9 +53,42 @@ Get a Picture that have this exact height, or nearest.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://meme.million.cloud" path="/:id" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/memes" %}
 {% api-method-summary %}
-Get the meme images by ID
+Get the meme images List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-query-parameters %}
+{% api-method-parameter name="limit" type="string" required=false %}
+Limit the number of rows to get.  
+Default is 100.
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/memes/:id" %}
+{% api-method-summary %}
+Get the meme image by ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -66,7 +99,7 @@ Return the meme image by ID.
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="id" type="string" required=false %}
-Get the meme picture according to its id.
+Get the meme image by id.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
@@ -85,9 +118,9 @@ Get the meme picture according to its id.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://meme.million.cloud" path="/list" %}
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/memes/:name\_slug" %}
 {% api-method-summary %}
-Get the meme images List
+Get the meme image by Slug Name
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -96,12 +129,11 @@ Get the meme images List
 
 {% api-method-spec %}
 {% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="limit" type="string" required=false %}
-Limit the number of rows to get.  
-Default is 100.
+{% api-method-path-parameters %}
+{% api-method-parameter name="name\_slug" type="string" required=false %}
+Get the meme image by slug name.
 {% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
+{% endapi-method-path-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}

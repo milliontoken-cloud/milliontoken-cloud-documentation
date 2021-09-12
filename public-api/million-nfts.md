@@ -1,5 +1,5 @@
 ---
-description: Getting Million Token related NFTs Information's.
+description: Access the Million Token related NFTs data.
 ---
 
 # Million NFTs

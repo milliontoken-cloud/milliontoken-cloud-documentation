@@ -14,7 +14,9 @@
 * [Liquidity Pools](public-api/liquidity-pools.md)
 * [Million NFTs](public-api/million-nfts.md)
 * [Million Memes](public-api/million-memes.md)
-* [Million Community](public-api/million-community.md)
+* [Million Quotes](public-api/million-quotes.md)
+* [Million Influencers](public-api/million-influencers.md)
+* [Million Community Projects](public-api/million-community-projects.md)
 
 ## Third Party API
 

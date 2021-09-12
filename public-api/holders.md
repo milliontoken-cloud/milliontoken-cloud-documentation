@@ -1,5 +1,5 @@
 ---
-description: API Endpoints concerning the Million Token holders.
+description: Access the Million Token Holders Data.
 ---
 
 # Holders
