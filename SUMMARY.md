@@ -36,3 +36,7 @@
 
 * [Changelog](updates/changelog.md)
 
+---
+
+* [Donations](donations.md)
+
