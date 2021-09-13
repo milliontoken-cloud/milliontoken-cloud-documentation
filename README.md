@@ -36,7 +36,7 @@ All Services are currently in development !
 The services on milliontoken.cloud are free for everyone to use.  
 If you like the project and want to give a kidney or two, don't hesitate to make a donation to the developer!
 
-#### ETH \(ERC20 / BEP20\) 
+#### ETH / MATIC / BSC \(ERC20 / BEP20\) 
 
 ```text
 0x1d7EFa258B232538527796af616b534Ce6686F56

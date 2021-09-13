@@ -14,7 +14,7 @@ Total Liquidity amounts per blockchain
 {% endapi-method-summary %}
 
 {% api-method-description %}
-https://api.milliontoken.cloud/v1/liquidity?blockchain=eth
+https://api.milliontoken.cloud/liquidity?blockchain=eth
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -53,7 +53,7 @@ Liquidity Pairs per blockchain
 {% endapi-method-summary %}
 
 {% api-method-description %}
-https://api.milliontoken.cloud/v1/liquidity-pairs?blockchain=eth,matic
+https://api.milliontoken.cloud/liquidity-pairs?blockchain=eth,matic
 {% endapi-method-description %}
 
 {% api-method-spec %}

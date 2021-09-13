@@ -15,7 +15,7 @@ Million Token Holders List
 
 {% api-method-description %}
 Get the Holders JSON list.  
-https://api.milliontoken.cloud/v1/holders?blockchain=eth
+https://api.milliontoken.cloud/holders?blockchain=eth
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -79,7 +79,7 @@ Million Token Holder Details
 {% endapi-method-summary %}
 
 {% api-method-description %}
-https://api.milliontoken.cloud/v1/holders/0x0000000000000000000000000000000000000000
+https://api.milliontoken.cloud/holders/0x0000000000000000000000000000000000000000
 {% endapi-method-description %}
 
 {% api-method-spec %}
