@@ -24,9 +24,7 @@ Million was founded by [Tech Lead](https://www.youtube.com/c/TechLead) with over
 The minimum market cap for Million is 1,000,000 $USDC and now is growing on.  
 The fixed amount of token for MM make it a deflationary token, market expansion and buying volume will increase Scarcity, making Million Token a Store of Value.   
   
-The social aspect of the million token happens with the community, driving the Token through: memes, creative projects, sharing,  predictions, jokes and also by building and working together. One interesting aspect of the Community is about how to manage Governance with distributed communities. How centralized will it be ? How to make a distributed consensus ? Or side by side communities will build support ?  
-  
-We will see what happens next.
+The social aspect of the million token happens with the community driving the Token: memes, creative projects, sharing,  predictions, jokes and also by building and working together. One interesting aspect of the Community is about how to manage Governance with distributed communities. How centralized will it be ? How to make a distributed consensus ? How will side by side communities sort things out ?
 
 ### Actions Around Million Token
 
