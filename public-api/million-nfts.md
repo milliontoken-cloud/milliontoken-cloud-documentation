@@ -4,8 +4,6 @@ description: Access the Million Token related NFTs data.
 
 # Million NFTs
 
-Use the API to know if the current wallet address own an NFTs on the blockchain.
-
 {% hint style="warning" %}
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}

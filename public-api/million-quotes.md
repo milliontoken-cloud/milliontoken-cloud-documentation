@@ -4,6 +4,10 @@ description: Access the Million Token Quotes.
 
 # Million Quotes
 
+{% hint style="warning" %}
+Features aren't implemented yet. Next release will come soon !
+{% endhint %}
+
 {% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/random" %}
 {% api-method-summary %}
 Get a Random quote for Million Token

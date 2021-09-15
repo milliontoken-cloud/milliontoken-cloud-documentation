@@ -4,6 +4,10 @@ description: Access data about community influencers.
 
 # Million Influencers
 
+{% hint style="warning" %}
+Features aren't implemented yet. Next release will come soon !
+{% endhint %}
+
 {% api-method method="get" host="https://api.milliontoken.cloud" path="/influencers" %}
 {% api-method-summary %}
 Get the influencers List

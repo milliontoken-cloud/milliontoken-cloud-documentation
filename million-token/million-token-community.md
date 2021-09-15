@@ -32,7 +32,7 @@ For the moment, the following list is referencing tutorials and feature ideas.
   * Help on how to integrate the [milliontoken.cloud](https://www.milliontoken.cloud) APIs with JavaScript  Could be used in order to check if the wallet owner has MM or not, and how many.
 
 * **How do I integrate a payment system with MM for my website ?**
-  * Covering the [WooCommerce](https://woocommerce.com) Crypto Plugin that allow the users to be pay with cryptos
+  * Covering the [WooCommerce](https://woocommerce.com) Crypto Plugins that allow the users to be pay with cryptos
   * Covering other ways with JavaScript 
 * **How do I use the** [**milliontoken.cloud**](https://www.milliontoken.cloud) **API on my server ?**
   * Code example with different endpoints for different programming languages
