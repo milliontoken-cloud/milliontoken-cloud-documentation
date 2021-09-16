@@ -93,9 +93,9 @@ https://api.milliontoken.cloud/holders/0x000000000000000000000000000000000000000
 
 ```
 {
-    "wallet-address": "0x0000000000000000000000000000000000000000", 
-    "mm-balance": 123000000000000,
-    "mm-usd-value": 1452145200000000
+    "address": "0x0000000000000000000000000000000000000000", 
+    "mm_balance": 123000000000000,
+    "mm_usd_value": 1452145200000000
 }
 ```
 {% endapi-method-response-example %}

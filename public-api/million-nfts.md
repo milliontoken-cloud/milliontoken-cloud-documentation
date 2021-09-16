@@ -10,7 +10,7 @@ Features aren't implemented yet. Next release will come soon !
 
 {% api-method method="get" host="https://api.milliontoken.cloud" path="/million-nfts" %}
 {% api-method-summary %}
-Million NFTs References
+Get Million NFTs References
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -43,7 +43,7 @@ Get the NFTs references only for a specified artist.
 
 {% api-method method="get" host="https://api.milliontoken.cloud" path="/million-nfts/artists" %}
 {% api-method-summary %}
-Million NFTs Artists
+Get Million NFTs Artists
 {% endapi-method-summary %}
 
 {% api-method-description %}

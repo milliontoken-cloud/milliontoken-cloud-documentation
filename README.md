@@ -2,7 +2,7 @@
 description: Here is the documentation for the milliontoken.cloud service.
 ---
 
-# Welcome
+# MillionTokenCloud
 
 ## Milliontoken.cloud
 
@@ -17,7 +17,7 @@ Access the milliontoken.cloud website : [https://www.milliontoken.cloud](https:/
 * Display Real-Time charts and data about MillionToken.
 * Interpolate data from multiple chains including Ethereum, Polygon, Solana and BinanceSmartChain.
 * Provide Documentation for using other Third-Party API endpoints like etherscan, bscscan.
-* milliontoken.cloud intend to provide JSON API endpoints to get single or multichain data aggregations. This will prevent end user to call for every external APIs.
+* milliontoken.cloud intend to provide JSON API endpoints to get single or multi-chain data aggregations. This will prevent end user to call for every external APIs.
 * milliontoken.cloud intend to Provide Community Projects details and other resources related to the Million Token Community.
 * Helping the community to use the million token on their website, app or other services by providing guidelines and tutorials through this documentation.
 

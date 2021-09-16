@@ -123,3 +123,96 @@ Get a Quote by ID
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes" %}
+{% api-method-summary %}
+Get Quotes List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-query-parameters %}
+{% api-method-parameter name="sort\_by" type="string" required=false %}
+text, length, author, created\_at, source
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="order" type="string" required=false %}
+asc or desc
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="limit" type="string" required=false %}
+Set the number of requested Quotes.  
+Default is 20.
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/authors" %}
+{% api-method-summary %}
+Get the quotes authors List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/sources" %}
+{% api-method-summary %}
+Get the quotes sources List
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+

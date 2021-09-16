@@ -53,7 +53,7 @@ Get the influencers List
 
 {% api-method method="get" host="https://api.milliontoken.cloud" path="/influencers/:slug" %}
 {% api-method-summary %}
-
+Get an influencer by Slug
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -63,8 +63,8 @@ Get the influencers List
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-Get influencer by slug
+{% api-method-parameter name="slug" type="string" required=false %}
+Get an influencer by slug
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
@@ -85,7 +85,7 @@ Get influencer by slug
 
 {% api-method method="get" host="https://api.milliontoken.cloud" path="/influencers/:id" %}
 {% api-method-summary %}
-Get 
+Get an influencer by ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -96,7 +96,7 @@ Get
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="id" type="string" required=false %}
-Get influencer by ID
+Get an influencer by ID
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}

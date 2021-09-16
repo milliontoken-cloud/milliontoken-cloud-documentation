@@ -14,7 +14,7 @@ Community projects List
 {% endapi-method-summary %}
 
 {% api-method-description %}
-List all the community projects referenced by milliontoken.cloud.  
+List all the community projects referenced by MillionTokenCloud.  
 Want to add your project to the list ? Join our Discord !
 {% endapi-method-description %}
 
@@ -93,7 +93,7 @@ Community project by ID
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="id" type="string" required=false %}
-The id for a specific community project.
+Get a community project by ID.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
@@ -139,7 +139,7 @@ The id for a specific community project.
 
 {% api-method method="get" host="https://api.milliontoken.cloud" path="/community-projects/:slug" %}
 {% api-method-summary %}
-Community project by Slug Name
+Community project by Slug
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -150,7 +150,39 @@ Community project by Slug Name
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="slug" type="string" required=false %}
-The slug name for a specific community project.
+Get a community project by slug.
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.milliontoken.cloud" path="/community-projects/:id" %}
+{% api-method-summary %}
+
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="id" type="string" required=false %}
+Get a community project by ID.
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [MillionTokenCloud](README.md)
 
 ## Token <a id="million-token"></a>
 
