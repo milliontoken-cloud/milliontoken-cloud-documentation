@@ -15,7 +15,7 @@ Community projects List
 
 {% api-method-description %}
 List all the community projects referenced by MillionTokenCloud.  
-Want to add your project to the list ? Join our Discord !
+Want to add your project to the list ? A form will be made.
 {% endapi-method-description %}
 
 {% api-method-spec %}
