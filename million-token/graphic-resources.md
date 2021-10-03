@@ -4,21 +4,35 @@ description: Here you will be able to find graphical resources and icons for you
 
 # Graphic Resources
 
-{% hint style="warning" %}
-Features aren't implemented yet. Next release will come soon !
-{% endhint %}
-
 ## Million Token Logo
 
-Images Soon
+MillionToken - Main Yellow Logo[  
+https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/million.svg](https://raw.githubusercontent.com/MetaMask/contract-metadata/master/images/million.svg)
+
+![Million Token Logo](../.gitbook/assets/million.svg)
 
 ### Color References
 
-Hexadecimal pallets
+Light Yellow Gradient \#f8bc00  
+Darker Yellow Gradient \#ec9400  
+In between Yellow Gradient \#f3ad00
 
 ### Third-Services Platform's Logos
 
-Etherscan, BscScan, Polygonscan, etc.
+API Endpoint for the list [https://api.milliontoken.cloud/assets/logos](https://api.milliontoken.cloud/assets/logos)
+
+* Etherscan
+* BscScan
+* Polygonscan
+* Solanabeach
+* Coingecko
+* UniSwap
+* SushiSwap
+* QuickSwap
+* ComethSwap
+* PancakeSwap
+* 1inch
+* ParaSwap
 
 
 
