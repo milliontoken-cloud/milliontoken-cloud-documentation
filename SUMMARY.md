@@ -18,6 +18,10 @@
 * [Million Influencers](public-api/million-influencers.md)
 * [Million Community Projects](public-api/million-community-projects.md)
 
+## Tutorials
+
+* [Crypto Security](tutorials/crypto-security.md)
+
 ---
 
 * [Third Party API](third-party-api/README.md)
