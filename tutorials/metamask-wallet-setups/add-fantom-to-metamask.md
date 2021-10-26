@@ -1,0 +1,2 @@
+# Add Fantom to MetaMask
+

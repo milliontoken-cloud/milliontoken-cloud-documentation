@@ -2,7 +2,7 @@
 
 * [MillionTokenCloud](README.md)
 
-## Token <a id="million-token"></a>
+## Token <a href="million-token" id="million-token"></a>
 
 * [Million Token](million-token/million-token.md)
 * [Million Token Community](million-token/million-token-community.md)
@@ -20,15 +20,22 @@
 
 ## Tutorials
 
+* [Metamask Wallet Setups](tutorials/metamask-wallet-setups/README.md)
+  * [Add Ethereum to MetaMask](tutorials/metamask-wallet-setups/add-ethereum-to-metamask.md)
+  * [Add Polygon to MetaMask](tutorials/metamask-wallet-setups/add-polygon-to-metamask.md)
+  * [Add BSC to MetaMask](tutorials/metamask-wallet-setups/add-bsc-to-metamask.md)
+  * [Add Avanlache to MetaMask](tutorials/metamask-wallet-setups/add-avanlache-to-metamask.md)
+  * [Add Fantom to MetaMask](tutorials/metamask-wallet-setups/add-fantom-to-metamask.md)
+  * [Add Tomochain to MetaMask](tutorials/metamask-wallet-setups/add-tomochain-to-metamask.md)
 * [Crypto Security](tutorials/crypto-security.md)
 
----
+***
 
 * [Third Party API](third-party-api/README.md)
   * [Etherscan](third-party-api/etherscan.md)
   * [Solana Explorer](third-party-api/solana-explorer.md)
   * [BscScan](third-party-api/bscscan.md)
-  * [Cardanoscan \(coming soon ?\)](third-party-api/cardanoscan.md)
+  * [Cardanoscan (coming soon ?)](third-party-api/cardanoscan.md)
   * [CoinGecko](third-party-api/coingecko.md)
   * [Bloxy](third-party-api/bloxy.md)
 
@@ -40,7 +47,6 @@
 
 * [Changelog](updates/changelog.md)
 
----
+***
 
 * [Donations](donations.md)
-
