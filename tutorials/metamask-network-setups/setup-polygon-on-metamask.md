@@ -16,10 +16,10 @@ description: Add the Polygon Network (MATIC) to MetaMask.
 ### Fields to fill on MetaMask
 
 * **Network Name:** Polygon Mainnet
-* **RPC URL:** [https://polygon-rpc.com](https://polygon-rpc.com)
-* **Chain ID:** 127
+* **RPC URL:** https://polygon-rpc.com
+* **Chain ID:** 137
 * **Currency Symbol:** MATIC
-* **Block Explorer URL:** [https://polygonscan.com](https://polygonscan.com)
+* **Block Explorer URL:** https://polygonscan.com
 
 ### Setup the Polygon Network in MetaMask
 
