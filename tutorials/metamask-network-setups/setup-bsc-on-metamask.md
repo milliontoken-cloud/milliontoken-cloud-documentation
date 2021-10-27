@@ -5,10 +5,10 @@
 ### Fields to fill on MetaMask
 
 * **Network Name:** Binance Smart Chain
-* **RPC URL:** [https://bsc-dataseed.binance.org](https://polygon-rpc.com)
+* **RPC URL:** https://bsc-dataseed.binance.org
 * **Chain ID:** 56
 * **Currency Symbol:** BNB
-* **Block Explorer URL:** [https://bscscan.com](https://polygonscan.com)
+* **Block Explorer URL:** https://bscscan.com
 
 ### BSC RPC Endpoints
 

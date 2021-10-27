@@ -9,9 +9,9 @@ description: Add the Fantom Network (FTM) to MetaMask.
 ![](../../.gitbook/assets/metamask\_custom\_rpc.jpg)
 
 * **Network Name:** Fantom Opera
-* **RPC URL:** [https://rpc.ftm.tools](https://rpc.ftm.tools)
+* **RPC URL:** https://rpc.ftm.tools
 * **Chain ID:** 250
 * **Currency Symbol:** FTM
-* **Block Explorer URL:** [https://ftmscan.com](https://ftmscan.com)
+* **Block Explorer URL:** https://ftmscan.com
 
 ![](../../.gitbook/assets/metamask\_setup\_fantom\_rpc.png)
