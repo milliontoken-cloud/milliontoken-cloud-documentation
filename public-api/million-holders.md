@@ -8,40 +8,34 @@ description: Access the Million Token Holders Data.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/holders" %}
-{% api-method-summary %}
-Million Token Holders List
-{% endapi-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/holders" method="get" summary="Million Token Holders List" %}
+{% swagger-description %}
+Get the Holders JSON list.
 
-{% api-method-description %}
-Get the Holders JSON list.  
+\
+
+
 https://api.milliontoken.cloud/holders?blockchain=eth
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="limit" type="integer" required=false %}
+{% swagger-parameter in="query" name="limit" type="integer" %}
 Limit the number of rows.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="split" type="boolean" required=false %}
-Split holders in sub arrays for each blockchains.  
+{% swagger-parameter in="query" name="split" type="boolean" %}
+Split holders in sub arrays for each blockchains.
+
+\
+
+
 Default is true.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="blockchain" type="string" required=false %}
+{% swagger-parameter in="query" name="blockchain" type="string" %}
 Select holders of the specified blockchains only
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Cake successfully retrieved.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Cake successfully retrieved." %}
 ```
 {
     "ethereum": [
@@ -58,39 +52,21 @@ Cake successfully retrieved.
     ]
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Could not find a cake matching this query." %}
 ```
 {    "message": "There is no holders, or an error during the request"}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/holders/:address" %}
-{% api-method-summary %}
-Million Token Holder Details
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/holders/:address" method="get" summary="Million Token Holder Details" %}
+{% swagger-description %}
 https://api.milliontoken.cloud/holders/0x0000000000000000000000000000000000000000
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
 {
     "address": "0x0000000000000000000000000000000000000000", 
@@ -98,20 +74,12 @@ https://api.milliontoken.cloud/holders/0x000000000000000000000000000000000000000
     "mm_usd_value": 1452145200000000
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="" %}
 ```
 {    "message": "The Wallet Address don't hold any MM Token"}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-
+{% endswagger-response %}
+{% endswagger %}
 

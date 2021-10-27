@@ -8,31 +8,21 @@ description: Access the Million Token Quotes.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/random" %}
-{% api-method-summary %}
-Get a Random quote for Million Token
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes/random" method="get" summary="Get a Random quote for Million Token" %}
+{% swagger-description %}
 This endpoint allows you to get free cakes.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="all" type="boolean" required=false %}
-Get all the quotes data columns.  
+{% swagger-parameter in="query" name="all" type="boolean" %}
+Get all the quotes data columns.
+
+\
+
+
 Default is false.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Cake successfully retrieved.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Cake successfully retrieved." %}
 ```
 {   
     "id": "iu29UEoeu2e3",
@@ -42,177 +32,93 @@ Cake successfully retrieved.
     "apiUrl": "https://milliontoken.cloud/quotes/million-to-the-moon"
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Could not find a cake matching this query." %}
 ```
 {
     "message": "Ain't no quotes here !" 
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/:slug" %}
-{% api-method-summary %}
-Get a Quote by Slug
-{% endapi-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes/:slug" method="get" summary="Get a Quote by Slug" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
 
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="slug" type="string" required=false %}
+{% swagger-parameter in="path" name="slug" type="string" %}
 Get a Quote by slug
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/:id" %}
-{% api-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes/:id" method="get" summary="Get a Quote by ID" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" name="" type="string" %}
 Get a Quote by ID
-{% endapi-method-summary %}
+{% endswagger-parameter %}
 
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
-Get a Quote by ID
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes" %}
-{% api-method-summary %}
-Get Quotes List
-{% endapi-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes" method="get" summary="Get Quotes List" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
 
-{% endapi-method-description %}
+{% swagger-parameter in="query" name="sort_by" type="string" %}
+text, length, author, created_at, source
+{% endswagger-parameter %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="sort\_by" type="string" required=false %}
-text, length, author, created\_at, source
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="order" type="string" required=false %}
+{% swagger-parameter in="query" name="order" type="string" %}
 asc or desc
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="limit" type="string" required=false %}
-Set the number of requested Quotes.  
+{% swagger-parameter in="query" name="limit" type="string" %}
+Set the number of requested Quotes.
+
+\
+
+
 Default is 20.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/authors" %}
-{% api-method-summary %}
-Get the quotes authors List
-{% endapi-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes/authors" method="get" summary="Get the quotes authors List" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
 
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/quotes/sources" %}
-{% api-method-summary %}
-Get the quotes sources List
-{% endapi-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes/sources" method="get" summary="Get the quotes sources List" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
 
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

@@ -8,31 +8,21 @@ description: Access the Million Token Liquidity Data for each blockchain.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/liquidity" %}
-{% api-method-summary %}
-Total Liquidity amounts per blockchain
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/liquidity" method="get" summary="Total Liquidity amounts per blockchain" %}
+{% swagger-description %}
 https://api.milliontoken.cloud/liquidity?blockchain=eth
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="blockchain" type="string" required=false %}
-Get the MM liquidity for the specified blockchain  
+{% swagger-parameter in="query" name="blockchain" type="string" %}
+Get the MM liquidity for the specified blockchain
+
+\
+
+
 parameter's list: eth, ether, ethereum, sol, solana, matic, polygon, ada, cardano.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
 {
     "solana": {
@@ -42,35 +32,19 @@ parameter's list: eth, ether, ethereum, sol, solana, matic, polygon, ada, cardan
     }
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/liquidity-pairs" %}
-{% api-method-summary %}
-Liquidity Pairs per blockchain
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/liquidity-pairs" method="get" summary="Liquidity Pairs per blockchain" %}
+{% swagger-description %}
 https://api.milliontoken.cloud/liquidity-pairs?blockchain=eth,matic
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="blockchain" type="string" required=false %}
+{% swagger-parameter in="path" name="blockchain" type="string" %}
 Get the MM liquidity pairs for the specified blockchain
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
 {
     "ethereum": [
@@ -85,8 +59,5 @@ Get the MM liquidity pairs for the specified blockchain
     ]
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

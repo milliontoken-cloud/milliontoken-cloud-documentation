@@ -8,35 +8,25 @@ description: Access data about the community Projects.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/community-projects" %}
-{% api-method-summary %}
-Community projects List
-{% endapi-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/community-projects" method="get" summary="Community projects List" %}
+{% swagger-description %}
+List all the community projects referenced by MillionTokenCloud.
 
-{% api-method-description %}
-List all the community projects referenced by MillionTokenCloud.  
+\
+
+
 Want to add your project to the list ? A form will be made.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="tags\_but" type="array" required=false %}
+{% swagger-parameter in="query" name="tags_but" type="array" %}
 List projects that don't have this tags.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="tags" type="array" %}
+{% swagger-parameter in="query" name="tags" type="array" %}
 Used to filter projects by tags.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Cake successfully retrieved.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Cake successfully retrieved." %}
 ```
 [{    
     "id": "x19y2ue2a0jc",
@@ -65,45 +55,25 @@ Cake successfully retrieved.
     }
 }]
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="Could not find a cake matching this query." %}
 ```
 { "message": "No community projects found." }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/community-projects/:id" %}
-{% api-method-summary %}
-Community project by ID
-{% endapi-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/community-projects/:id" method="get" summary="Community project by ID" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
 
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=false %}
+{% swagger-parameter in="path" name="id" type="string" %}
 Get a community project by ID.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
 {    
     "id": "x19y2ue2a0jc",
@@ -132,72 +102,35 @@ Get a community project by ID.
     }
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/community-projects/:slug" %}
-{% api-method-summary %}
-Community project by Slug
-{% endapi-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/community-projects/:slug" method="get" summary="Community project by Slug" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
 
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="slug" type="string" required=false %}
+{% swagger-parameter in="path" name="slug" type="string" %}
 Get a community project by slug.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/community-projects/:id" %}
-{% api-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/community-projects/:id" method="get" summary="" %}
+{% swagger-description %}
 
-{% endapi-method-summary %}
+{% endswagger-description %}
 
-{% api-method-description %}
-
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=false %}
+{% swagger-parameter in="path" name="id" type="string" %}
 Get a community project by ID.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

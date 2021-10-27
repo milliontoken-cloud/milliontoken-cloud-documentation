@@ -1,2 +1,0 @@
-# Add Polygon to MetaMask
-

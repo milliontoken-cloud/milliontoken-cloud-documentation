@@ -20,13 +20,23 @@
 
 ## Tutorials
 
-* [Metamask Wallet Setups](tutorials/metamask-wallet-setups/README.md)
-  * [Add Ethereum to MetaMask](tutorials/metamask-wallet-setups/add-ethereum-to-metamask.md)
-  * [Add Polygon to MetaMask](tutorials/metamask-wallet-setups/add-polygon-to-metamask.md)
-  * [Add BSC to MetaMask](tutorials/metamask-wallet-setups/add-bsc-to-metamask.md)
-  * [Add Avanlache to MetaMask](tutorials/metamask-wallet-setups/add-avanlache-to-metamask.md)
-  * [Add Fantom to MetaMask](tutorials/metamask-wallet-setups/add-fantom-to-metamask.md)
-  * [Add Tomochain to MetaMask](tutorials/metamask-wallet-setups/add-tomochain-to-metamask.md)
+* [Buy Million Token](tutorials/buy-million-token/README.md)
+  * [Buy MM on Uniswap V3](tutorials/buy-million-token/buy-mm-on-uniswap-v3.md)
+  * [Buy MM on Uniswap V2](tutorials/buy-million-token/buy-mm-on-uniswap-v2.md)
+  * [Buy MM on SushiSwap](tutorials/buy-million-token/buy-mm-on-sushiswap.md)
+  * [Buy MM on Quickswap](tutorials/buy-million-token/buy-mm-on-quickswap.md)
+  * [Buy MM on PancakeSwap](tutorials/buy-million-token/buy-mm-on-pancakeswap.md)
+  * [Buy MM on TraderJoe](tutorials/buy-million-token/buy-mm-on-traderjoe.md)
+  * [Buy MM on MoonSwap](tutorials/buy-million-token/buy-mm-on-moonswap.md)
+  * [Buy MM on Raydium](tutorials/buy-million-token/buy-mm-on-raydium.md)
+  * [Buy MM on Gate.io](tutorials/buy-million-token/buy-mm-on-gate.io.md)
+* [MetaMask Network Setups](tutorials/metamask-network-setups/README.md)
+  * [Setup Polygon on MetaMask](tutorials/metamask-network-setups/setup-polygon-on-metamask.md)
+  * [Setup BSC on MetaMask](tutorials/metamask-network-setups/setup-bsc-on-metamask.md)
+  * [Setup Avanlache on MetaMask](tutorials/metamask-network-setups/setup-avanlache-on-metamask.md)
+  * [Setup Fantom on MetaMask](tutorials/metamask-network-setups/setup-fantom-on-metamask.md)
+  * [Setup Moonriver on MetaMask](tutorials/metamask-network-setups/setup-moonriver-on-metamask.md)
+  * [Setup TomoChain on MetaMask](tutorials/metamask-network-setups/setup-tomochain-on-metamask.md)
 * [Crypto Security](tutorials/crypto-security.md)
 
 ***

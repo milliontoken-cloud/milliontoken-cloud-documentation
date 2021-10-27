@@ -8,145 +8,84 @@ description: Access the Million Token Memes collection.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/memes/random" %}
-{% api-method-summary %}
-Get a Random Meme Image for Million Token
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/memes/random" method="get" summary="Get a Random Meme Image for Million Token" %}
+{% swagger-description %}
 Will send a different random meme picture on each request.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="format" type="string" required=false %}
+{% swagger-parameter in="query" name="format" type="string" %}
 Chose the format you want: png, jpeg, gif, mp4, webm
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="ratio" type="string" required=false %}
-Get a picture that have specific w/h ratio   
+{% swagger-parameter in="query" name="ratio" type="string" %}
+Get a picture that have specific w/h ratio 
+
+\
+
+
 1-16, 3-4, 3-2, 1-1
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="width" type="integer" required=false %}
+{% swagger-parameter in="query" name="width" type="integer" %}
 Get a Picture that have this exact width, or nearest.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="height" type="integer" required=false %}
+{% swagger-parameter in="query" name="height" type="integer" %}
 Get a Picture that have this exact height, or nearest.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/memes" %}
-{% api-method-summary %}
-Get the meme images List
-{% endapi-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/memes" method="get" summary="Get the meme images List" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
 
-{% endapi-method-description %}
+{% swagger-parameter in="query" name="limit" type="string" %}
+Limit the number of rows to get.
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="limit" type="string" required=false %}
-Limit the number of rows to get.  
+\
+
+
 Default is 100.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/memes/:id" %}
-{% api-method-summary %}
-Get the meme image by ID
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/memes/:id" method="get" summary="Get the meme image by ID" %}
+{% swagger-description %}
 Return the meme image by ID.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" required=false %}
+{% swagger-parameter in="path" name="id" type="string" %}
 Get the meme image by id.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.milliontoken.cloud" path="/memes/:slug" %}
-{% api-method-summary %}
-Get the meme image by Slug
-{% endapi-method-summary %}
+{% swagger baseUrl="https://api.milliontoken.cloud" path="/memes/:slug" method="get" summary="Get the meme image by Slug" %}
+{% swagger-description %}
 
-{% api-method-description %}
+{% endswagger-description %}
 
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="slug" type="string" required=false %}
+{% swagger-parameter in="path" name="slug" type="string" %}
 Get the meme image by slug.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}
