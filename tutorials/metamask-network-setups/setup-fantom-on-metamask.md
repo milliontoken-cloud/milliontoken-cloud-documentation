@@ -12,6 +12,10 @@ description: Add the Fantom Network (FTM) to MetaMask.
 * **Currency Symbol:** FTM
 * **Block Explorer URL:** https://ftmscan.com
 
+### Million Token Address for Fantom Opera
+
+(soon)
+
 ### **Select Network in MetaMask: **Custom RPC
 
 ![](../../.gitbook/assets/metamask\_custom\_rpc.jpg)

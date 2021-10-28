@@ -16,6 +16,12 @@ description: Add the Avalanche Network (AVAX) to MetaMask.
 
 **Source:** [https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche)
 
+### Million Token Address for Avalanche
+
+0x993163CaD35162fB579D7B64e6695cB076EF5064
+
+{% embed url="https://avascan.info/blockchain/c/token/0x993163CaD35162fB579D7B64e6695cB076EF5064" %}
+
 ### Reach for the Custom RPC in MetaMask
 
 ![](../../.gitbook/assets/metamask\_custom\_rpc.jpg)

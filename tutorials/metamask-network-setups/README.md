@@ -30,7 +30,7 @@
 
 Polygon [https://polygon-rpc.com ](https://polygon-rpc.com)137 MATIC [https://polygonscan.com](https://polygonscan.com)
 
-BSC [https://bsc-dataseed.binance.org](https://bsc-dataseed.binance.org) 56  BNB[https://bscscan.com](https://bscscan.com)
+BSC [https://bsc-dataseed.binance.org](https://bsc-dataseed.binance.org) 56  BNB [https://bscscan.com](https://bscscan.com)
 
 Avalanche [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc) 43114 AVAX [https://cchain.explorer.avax.network](https://cchain.explorer.avax.network)&#x20;
 

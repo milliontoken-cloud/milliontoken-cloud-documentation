@@ -40,7 +40,8 @@ If you like the project and want to give a kidney or two, don't hesitate to make
 #### ETH / MATIC / BSC (ERC20 / BEP20)&#x20;
 
 ```
-0x1d7EFa258B232538527796af616b534Ce6686F56
+0x1d7efa258b232538527796af616b534ce6686f56
+
 ```
 
 ```

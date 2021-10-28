@@ -20,6 +20,7 @@
 
 ## Tutorials
 
+* [MillionToken Networks](tutorials/milliontoken-networks.md)
 * [Buy Million Token](tutorials/buy-million-token/README.md)
   * [Buy MM on Uniswap V3](tutorials/buy-million-token/buy-mm-on-uniswap-v3.md)
   * [Buy MM on Uniswap V2](tutorials/buy-million-token/buy-mm-on-uniswap-v2.md)
@@ -33,10 +34,10 @@
 * [MetaMask Network Setups](tutorials/metamask-network-setups/README.md)
   * [Setup Polygon on MetaMask](tutorials/metamask-network-setups/setup-polygon-on-metamask.md)
   * [Setup BSC on MetaMask](tutorials/metamask-network-setups/setup-bsc-on-metamask.md)
-  * [Setup Fantom on MetaMask](tutorials/metamask-network-setups/setup-fantom-on-metamask.md)
+  * [Setup Avanlache on MetaMask](tutorials/metamask-network-setups/setup-avanlache-on-metamask.md)
   * [Setup Moonriver on MetaMask](tutorials/metamask-network-setups/setup-moonriver-on-metamask.md)
   * [Setup TomoChain on MetaMask](tutorials/metamask-network-setups/setup-tomochain-on-metamask.md)
-  * [Setup Avanlache on MetaMask](tutorials/metamask-network-setups/setup-avanlache-on-metamask.md)
+  * [Setup Fantom on MetaMask](tutorials/metamask-network-setups/setup-fantom-on-metamask.md)
 * [Crypto Security](tutorials/crypto-security.md)
 
 ***

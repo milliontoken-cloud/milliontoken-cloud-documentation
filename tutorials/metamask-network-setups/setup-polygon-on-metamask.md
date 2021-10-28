@@ -21,6 +21,12 @@ description: Add the Polygon Network (MATIC) to MetaMask.
 * **Currency Symbol:** MATIC
 * **Block Explorer URL:** https://polygonscan.com
 
+### Million Token Address for Polygon
+
+0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927
+
+{% embed url="https://polygonscan.com/token/0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927" %}
+
 ### Get some MATIC for transactions to get started - Faucet
 
 {% embed url="https://macncheese.finance/matic-polygon-mainnet-faucet.php" %}
