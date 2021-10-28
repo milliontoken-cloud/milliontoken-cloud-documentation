@@ -21,3 +21,12 @@ description: Add the Fantom Network (FTM) to MetaMask.
 ![](../../.gitbook/assets/metamask\_custom\_rpc.jpg)
 
 ![](../../.gitbook/assets/metamask\_setup\_fantom\_rpc.png)
+
+### Buy Million Token on SpookySwap Fantom (soon)
+
+{% content-ref url="../buy-million-token/" %}
+[buy-million-token](../buy-million-token/)
+{% endcontent-ref %}
+
+{% embed url="https://www.milliontoken.org" %}
+

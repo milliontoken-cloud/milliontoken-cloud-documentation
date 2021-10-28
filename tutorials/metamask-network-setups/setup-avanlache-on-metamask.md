@@ -16,7 +16,7 @@ description: Add the Avalanche Network (AVAX) to MetaMask.
 
 **Source:** [https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche)
 
-### Million Token Address for Avalanche
+### Million Token C-Chain Address for Avalanche
 
 0x993163CaD35162fB579D7B64e6695cB076EF5064
 
@@ -30,3 +30,10 @@ description: Add the Avalanche Network (AVAX) to MetaMask.
 
 ![](../../.gitbook/assets/metamask\_setup\_avalanche\_rpc.png)
 
+### Buy Million Token on TraderJoe Avalanche&#x20;
+
+{% content-ref url="../buy-million-token/buy-mm-on-traderjoe.md" %}
+[buy-mm-on-traderjoe.md](../buy-million-token/buy-mm-on-traderjoe.md)
+{% endcontent-ref %}
+
+{% embed url="https://www.milliontoken.org" %}

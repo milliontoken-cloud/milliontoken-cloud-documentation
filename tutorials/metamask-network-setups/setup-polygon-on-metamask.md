@@ -38,3 +38,11 @@ description: Add the Polygon Network (MATIC) to MetaMask.
 ### Fill the following fields and Save
 
 ![](../../.gitbook/assets/metamask\_setup\_polygon\_rpc.png)
+
+### &#x20;Buy Million Token on Quickswap Polygon&#x20;
+
+{% content-ref url="../buy-million-token/buy-mm-on-quickswap.md" %}
+[buy-mm-on-quickswap.md](../buy-million-token/buy-mm-on-quickswap.md)
+{% endcontent-ref %}
+
+{% embed url="https://www.milliontoken.org" %}

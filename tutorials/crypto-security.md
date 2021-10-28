@@ -4,7 +4,7 @@ description: Get some resources and useful information on how to secure your cry
 
 # Crypto Security
 
-HardWare Wallets
+### Hardware Wallets
 
-* [https://www.ledger.com](https://www.ledger.com/)
-* 
+* [https://trezor.io](https://trezor.io)
+* [https://www.ledger.com](https://www.ledger.com)

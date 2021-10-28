@@ -44,3 +44,11 @@
 ### Fill the following fields and Save
 
 ![](../../.gitbook/assets/metamask\_setup\_binancesmartchain\_bsc\_rpc.png)
+
+### Buy Million Token on PancakeSwap BSC
+
+{% content-ref url="../buy-million-token/buy-mm-on-pancakeswap.md" %}
+[buy-mm-on-pancakeswap.md](../buy-million-token/buy-mm-on-pancakeswap.md)
+{% endcontent-ref %}
+
+{% embed url="https://www.milliontoken.org" %}
