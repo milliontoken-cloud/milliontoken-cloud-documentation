@@ -28,9 +28,23 @@
 
 ### Networks Summary&#x20;
 
-Polygon [https://polygon-rpc.com ](https://polygon-rpc.com)137 MATIC [https://polygonscan.com](https://polygonscan.com)
+#### Polygon&#x20;
 
-BSC [https://bsc-dataseed.binance.org](https://bsc-dataseed.binance.org) 56  BNB [https://bscscan.com](https://bscscan.com)
+* **Network Name:** Polygon Mainnet
+* **RPC URL:** https://polygon-rpc.com
+* **Chain ID:** 137
+* **Currency Symbol:** MATIC
+* **Block Explorer URL:** https://polygonscan.com
+
+#### Binance Smart Chain - BSC
+
+* **Network Name:** Binance Smart Chain
+* **RPC URL:** https://bsc-dataseed.binance.org
+* **Chain ID:** 56
+* **Currency Symbol:** BNB
+* **Block Explorer URL:** https://bscscan.com
+
+#### Avalanche
 
 Avalanche [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc) 43114 AVAX [https://cchain.explorer.avax.network](https://cchain.explorer.avax.network)&#x20;
 
