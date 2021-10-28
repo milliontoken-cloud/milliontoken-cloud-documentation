@@ -20,7 +20,7 @@
 
 ## Tutorials
 
-* [MillionToken Networks](tutorials/milliontoken-networks.md)
+* [MillionToken Addresses](tutorials/milliontoken-addresses.md)
 * [Buy Million Token](tutorials/buy-million-token/README.md)
   * [Buy MM on Uniswap V2](tutorials/buy-million-token/buy-mm-on-uniswap-v2.md)
   * [Buy MM on Uniswap V3](tutorials/buy-million-token/buy-mm-on-uniswap-v3.md)
