@@ -33,10 +33,10 @@
 * [MetaMask Network Setups](tutorials/metamask-network-setups/README.md)
   * [Setup Polygon on MetaMask](tutorials/metamask-network-setups/setup-polygon-on-metamask.md)
   * [Setup BSC on MetaMask](tutorials/metamask-network-setups/setup-bsc-on-metamask.md)
-  * [Setup Avanlache on MetaMask](tutorials/metamask-network-setups/setup-avanlache-on-metamask.md)
   * [Setup Fantom on MetaMask](tutorials/metamask-network-setups/setup-fantom-on-metamask.md)
   * [Setup Moonriver on MetaMask](tutorials/metamask-network-setups/setup-moonriver-on-metamask.md)
   * [Setup TomoChain on MetaMask](tutorials/metamask-network-setups/setup-tomochain-on-metamask.md)
+  * [Setup Avanlache on MetaMask](tutorials/metamask-network-setups/setup-avanlache-on-metamask.md)
 * [Crypto Security](tutorials/crypto-security.md)
 
 ***

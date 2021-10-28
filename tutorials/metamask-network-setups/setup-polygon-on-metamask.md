@@ -13,13 +13,17 @@ description: Add the Polygon Network (MATIC) to MetaMask.
 * [https://matic-mainnet-full-rpc.bwarelabs.com ](https://matic-mainnet-full-rpc.bwarelabs.com)
 * [https://matic-mainnet-archive-rpc.bwarelabs.com](https://matic-mainnet-archive-rpc.bwarelabs.com)
 
-### Fields to fill on MetaMask
+### Polygon Mainnet RPC
 
 * **Network Name:** Polygon Mainnet
 * **RPC URL:** https://polygon-rpc.com
 * **Chain ID:** 137
 * **Currency Symbol:** MATIC
 * **Block Explorer URL:** https://polygonscan.com
+
+### Get some MATIC for transactions to get started - Faucet
+
+{% embed url="https://macncheese.finance/matic-polygon-mainnet-faucet.php" %}
 
 ### Setup the Polygon Network in MetaMask
 
