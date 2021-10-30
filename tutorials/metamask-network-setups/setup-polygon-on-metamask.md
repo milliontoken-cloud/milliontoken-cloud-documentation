@@ -39,7 +39,16 @@ description: Add the Polygon Network (MATIC) to MetaMask.
 
 ![](../../.gitbook/assets/metamask\_setup\_polygon\_rpc.png)
 
-### &#x20;Buy Million Token on Quickswap Polygon&#x20;
+### Useful Addresses to import for Polygon
+
+* MM 0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927
+* WMATIC 0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270
+* WETH 0x7ceb23fd6bc0add59e62ac25578270cff1b9f619
+* USDC 0x2791bca1f2de4661ed88a30c99a7a9449aa84174
+* USDT 0xc2132d05d31c914a87c6611c10748aeb04b58e8f
+* DAI 0x8f3cf7ad23cd3cadbd9735aff958023239c6a063
+
+### Buy Million Token on Quickswap Polygon&#x20;
 
 {% content-ref url="../buy-million-token/buy-mm-on-quickswap.md" %}
 [buy-mm-on-quickswap.md](../buy-million-token/buy-mm-on-quickswap.md)

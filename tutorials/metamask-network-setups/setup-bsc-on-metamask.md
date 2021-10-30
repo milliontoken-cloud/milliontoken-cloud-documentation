@@ -45,6 +45,15 @@
 
 ![](../../.gitbook/assets/metamask\_setup\_binancesmartchain\_bsc\_rpc.png)
 
+### Useful Addresses to import for BSC
+
+* MM 0xbf05279f9bf1ce69bbfed670813b7e431142afa4
+* WBNB 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c
+* WETH 0x2170ed0880ac9a755fd29b2688956bd959f933f8
+* BUSD 0xe9e7cea3dedca5984780bafc599bd69add087d56
+* USDC 0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d
+* USDT 0x55d398326f99059ff775485246999027b3197955
+
 ### Buy Million Token on PancakeSwap BSC
 
 {% content-ref url="../buy-million-token/buy-mm-on-pancakeswap.md" %}
