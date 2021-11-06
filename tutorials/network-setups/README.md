@@ -1,4 +1,8 @@
-# MetaMask Network Setups
+---
+description: MetaMask and other Wallet Networks setups.
+---
+
+# Network Setups
 
 ### Add Networks to your MetaMask Wallet
 
@@ -26,6 +30,14 @@
 [setup-tomochain-on-metamask.md](setup-tomochain-on-metamask.md)
 {% endcontent-ref %}
 
+{% content-ref url="setup-harmony-on-metamask.md" %}
+[setup-harmony-on-metamask.md](setup-harmony-on-metamask.md)
+{% endcontent-ref %}
+
+{% content-ref url="setup-near-wallet.md" %}
+[setup-near-wallet.md](setup-near-wallet.md)
+{% endcontent-ref %}
+
 ### Networks Summary&#x20;
 
 #### Polygon&#x20;
@@ -46,10 +58,32 @@
 
 #### Avalanche
 
-Avalanche [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc) 43114 AVAX [https://cchain.explorer.avax.network](https://cchain.explorer.avax.network)&#x20;
+* **Network Name:** Avalanche Mainnet
+* **RPC URL:** https://api.avax.network/ext/bc/C/rpc
+* **Chain ID:** 43114
+* **Currency Symbol:** AVAX
+* **Block Explorer URL:**  https://cchain.explorer.avax.network
 
-Moonriver [https://rpc.moonriver.moonbeam.network](https://rpc.moonriver.moonbeam.network) 1285 MOVR [https://blockscout.moonriver.moonbeam.network](https://blockscout.moonriver.moonbeam.network)
+#### Kusama - Moonriver
 
-Fantom Opera [https://rpc.ftm.tools](https://rpc.ftm.tools) 250 FTM [https://ftmscan.com](https://ftmscan.com)
+* **Network Name:** Moonriver
+* **RPC URL:**  https://rpc.moonriver.moonbeam.network
+* **Chain ID:** 1285
+* **Currency Symbol:** MOVR
+* **Block Explorer URL:** https://blockscout.moonriver.moonbeam.network
 
-TomoChain [https://rpc.tomochain.com](https://rpc.tomochain.com) 88 TOMO [https://scan.tomochain.com](https://scan.tomochain.com)
+#### Fantom Opera
+
+* **Network Name:** Fantom
+* **RPC URL:**  https://rpc.ftm.tools
+* **Chain ID:** 250
+* **Currency Symbol:** FTM
+* **Block Explorer URL:**  https://ftmscan.com
+
+#### TomoChain
+
+* **Network Name:** TomoChain
+* **RPC URL:** https://rpc.tomochain.com
+* **Chain ID:** 88
+* **Currency Symbol:** TOMO
+* **Block Explorer URL:** https://scan.tomochain.com
