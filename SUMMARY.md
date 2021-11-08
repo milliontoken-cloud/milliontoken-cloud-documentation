@@ -46,6 +46,7 @@
 ***
 
 * [Third Party API](third-party-api/README.md)
+  * [Sushiswap](third-party-api/sushiswap.md)
   * [Etherscan](third-party-api/etherscan.md)
   * [Solana Explorer](third-party-api/solana-explorer.md)
   * [BscScan](third-party-api/bscscan.md)
