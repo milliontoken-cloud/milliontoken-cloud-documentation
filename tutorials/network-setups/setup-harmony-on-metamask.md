@@ -22,7 +22,7 @@
 * Shard 0: 1666600000
 * Shard 1: 1666600001
 * Shard 2: 1666600002
-* Shard3: 1666600003
+* Shard 3: 1666600003
 
 ### **Select Network in MetaMask: **Custom RPC
 
