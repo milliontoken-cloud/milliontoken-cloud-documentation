@@ -9,11 +9,9 @@ description: If you enjoy the project, give it a tip !
 The services on milliontoken.cloud are free for everyone to use.\
 If you like the project and want to give a kidney or two, don't hesitate to make a donation to the developer!
 
-#### ETH / MATIC / BSC (ERC20 / BEP20)&#x20;
+#### MillionTokenCloud - ETH / MATIC / BSC (ERC20 / BEP20)
 
-```
-0x1d7EFa258B232538527796af616b534Ce6686F56
-```
+* 0x1d7EFa258B232538527796af616b534Ce6686F56
 
 ```
 XRP - rwQLqVdTeRrhFX6Lbhbd5325buDfkJTSHz
