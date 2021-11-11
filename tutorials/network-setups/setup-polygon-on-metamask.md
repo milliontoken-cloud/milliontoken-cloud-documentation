@@ -31,6 +31,10 @@ description: Add the Polygon Network (MATIC) to MetaMask.
 
 {% embed url="https://macncheese.finance/matic-polygon-mainnet-faucet.php" %}
 
+### Get MATIC for Gas Fee - Exchange a Token for MATIC Free Swap
+
+{% embed url="https://wallet.polygon.technology/swap" %}
+
 ### Setup the Polygon Network in MetaMask
 
 ![](../../.gitbook/assets/metamask\_custom\_rpc.jpg)
