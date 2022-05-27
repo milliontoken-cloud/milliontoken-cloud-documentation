@@ -56,7 +56,7 @@
 
 ## Links
 
-* [milliontoken.cloud](https://www.milliontoken.cloud)
+* [millioncloud.org](https://millioncloud.org)
 
 ## Updates
 

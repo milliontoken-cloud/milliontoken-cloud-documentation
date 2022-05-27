@@ -19,9 +19,7 @@ description: You will find out the latest updates here.
 
 ### Advancements
 
-* Building up the documentation: [https://docs.milliontoken.cloud](https://docs.milliontoken.cloud)
-* Setting up DNS and Server for [milliontoken.cloud](https://www.milliontoken.cloud) services.
+* Building up the documentation: [https://docs.millioncloud.org](https://docs.millioncloud.org)
+* Setting up DNS and Server for [millioncloud.org](https://millioncloud.org) services.
 * Setting up the Github Account: [https://github.com/milliontoken-cloud](https://github.com/milliontoken-cloud)
-
-
 
