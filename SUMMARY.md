@@ -1,8 +1,8 @@
 # Table of contents
 
-* [MillionTokenCloud](README.md)
+* [MillionCloud](README.md)
 
-## Token <a href="million-token" id="million-token"></a>
+## Token <a href="#million-token" id="million-token"></a>
 
 * [Million Token](million-token/million-token.md)
 * [Million Token Community](million-token/million-token-community.md)
