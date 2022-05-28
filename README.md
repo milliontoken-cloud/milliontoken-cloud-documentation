@@ -1,5 +1,5 @@
 ---
-description: Here is the documentation for the milliontoken.cloud service.
+description: Here is the documentation for the millioncloud.org service.
 ---
 
 # MillionCloud
@@ -12,7 +12,7 @@ Learn more about the Million Token : [https://www.milliontoken.org](https://www.
 
 Access the millioncloud.org website : [https://www.millioncloud.org](./#milliontoken.cloud)
 
-### Milliontoken.cloud Services (still in development)
+### MillionCloud Services (still in development)
 
 * Display Real-Time charts and data about MillionToken.
 * Interpolate data from multiple chains including Ethereum, Polygon, Solana and BinanceSmartChain.
@@ -25,7 +25,7 @@ Access the millioncloud.org website : [https://www.millioncloud.org](./#milliont
 All Services are currently in development !
 {% endhint %}
 
-### Next Developments
+### Next Developments Possibilities
 
 * Improve Caching strategies
 * Add GraphQL support to provide a better alternative to API endpoints calls.\
