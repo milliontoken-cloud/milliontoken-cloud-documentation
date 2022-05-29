@@ -8,7 +8,7 @@ description: Access the Million Token Liquidity Data for each blockchain.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/liquidity" method="get" summary="Total Liquidity amounts per blockchain" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/liquidity" method="get" summary="Total Liquidity amounts per blockchain" %}
 {% swagger-description %}
 https://api.milliontoken.cloud/liquidity?blockchain=eth
 {% endswagger-description %}
@@ -35,7 +35,7 @@ parameter's list: eth, ether, ethereum, sol, solana, matic, polygon, ada, cardan
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/liquidity-pairs" method="get" summary="Liquidity Pairs per blockchain" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/liquidity-pairs" method="get" summary="Liquidity Pairs per blockchain" %}
 {% swagger-description %}
 https://api.milliontoken.cloud/liquidity-pairs?blockchain=eth,matic
 {% endswagger-description %}

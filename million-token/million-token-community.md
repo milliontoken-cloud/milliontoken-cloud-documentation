@@ -32,7 +32,7 @@ For the moment, the following list is referencing tutorials and feature ideas.
 *   **How to integrate MM to my website / service ?**
 
     * Signing a wallet owner, checking mm, JavaScript web3.js "how to" and helpers with resources
-    * Help on how to integrate the [milliontoken.cloud](https://www.milliontoken.cloud) APIs with JavaScript \
+    * Help on how to integrate the [millioncloud.org](https://app.gitbook.com/s/-MjEisjPGZ0O9KoQLO6T/) APIs with JavaScript \
       Could be used in order to check if the wallet owner has MM or not, and how many.
 
 
@@ -40,14 +40,14 @@ For the moment, the following list is referencing tutorials and feature ideas.
   * Covering the [WooCommerce](https://woocommerce.com) Crypto Plugins that allow the users to be pay with cryptos
   * Covering other ways with JavaScript\
 
-* **How do I use the **[**milliontoken.cloud**](https://www.milliontoken.cloud)** API on my server ?**
+* **How do I use the** [**millioncloud.org**](https://millioncloud.org) **API on my server ?**
   *   Code example with different endpoints for different programming languages
 
       * [NodeJS](https://nodejs.org/en) Requests JavaScript Example
       * [Python](https://www.python.org) Requests Example
 
 
-* **How do I use the **[**milliontoken.cloud**](https://www.milliontoken.cloud)** API on my front-end application ?**
+* **How do I use the** [**millioncloud.org**](https://millioncloud.org) **API on my front-end application ?**
   * Code example with different endpoints for JavaScript integration within an HTML DOM
     * AJAX - Raw JavaScript Example
     * AJAX - jQuery JavaScript Example\
@@ -58,7 +58,7 @@ For the moment, the following list is referencing tutorials and feature ideas.
     * Showing a chart integration example with [C3.js](https://c3js.org)
 
 
-* **How to use the **[**meme.milliontoken.cloud**](https://meme.milliontoken.cloud)** Meme image Getter ?**
+* **How to use the** [**meme.millioncloud.org**](https://meme.millioncloud.org) **Meme image Getter ?**
   * How it works ? Get some Memes !
   * List the Memes !
 

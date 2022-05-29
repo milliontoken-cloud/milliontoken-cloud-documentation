@@ -8,7 +8,7 @@ description: Access the Million Token Quotes.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes/random" method="get" summary="Get a Random quote for Million Token" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/quotes/random" method="get" summary="Get a Random quote for Million Token" %}
 {% swagger-description %}
 This endpoint allows you to get free cakes.
 {% endswagger-description %}
@@ -43,7 +43,7 @@ Default is false.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes/:slug" method="get" summary="Get a Quote by Slug" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/quotes/:slug" method="get" summary="Get a Quote by Slug" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -58,7 +58,7 @@ Get a Quote by slug
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes/:id" method="get" summary="Get a Quote by ID" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/quotes/:id" method="get" summary="Get a Quote by ID" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -73,7 +73,7 @@ Get a Quote by ID
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes" method="get" summary="Get Quotes List" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/quotes" method="get" summary="Get Quotes List" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -101,7 +101,7 @@ Default is 20.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes/authors" method="get" summary="Get the quotes authors List" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/quotes/authors" method="get" summary="Get the quotes authors List" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -112,7 +112,7 @@ Default is 20.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/quotes/sources" method="get" summary="Get the quotes sources List" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/quotes/sources" method="get" summary="Get the quotes sources List" %}
 {% swagger-description %}
 
 {% endswagger-description %}

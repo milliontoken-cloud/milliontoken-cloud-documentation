@@ -10,15 +10,15 @@ The goal of the project is to provides data and useful information about the Mil
 
 Learn more about the Million Token : [https://www.milliontoken.org](https://www.milliontoken.org/)
 
-Access the millioncloud.org website : [https://www.millioncloud.org](./#milliontoken.cloud)
+Access the millioncloud.org website : [https://www.millioncloud.org](https://millioncloud.org)
 
 ### MillionCloud Services (still in development)
 
 * Display Real-Time charts and data about MillionToken.
 * Interpolate data from multiple chains including Ethereum, Polygon, Solana and BinanceSmartChain.
 * Provide Documentation for using other Third-Party API endpoints like etherscan, bscscan.
-* [millioncloud.org](./#milliontoken.cloud) intend to provide JSON API endpoints to get single or multi-chain data aggregations. This will prevent end user to call for every external APIs.
-* [millioncloud.org ](./#milliontoken.cloud)intend to Provide Community Projects details and other resources related to the Million Token Community.
+* [millioncloud.org](https://millioncloud.org) intend to provide JSON API endpoints to get single or multi-chain data aggregations. This will prevent end user to call for every external APIs.
+* [millioncloud.org ](https://millioncloud.org)intend to Provide Community Projects details and other resources related to the Million Token Community.
 * Helping the community to use the million token on their website, app or other services by providing guidelines and tutorials through this documentation.
 
 {% hint style="warning" %}
@@ -34,7 +34,7 @@ All Services are currently in development !
 
 ### Support the project
 
-The services on [https://millioncloud.org ](./#milliontoken.cloud)are free for everyone to use.\
+The services on [https://millioncloud.org ](https://millioncloud.org)are free for everyone to use.\
 If you like the project and want to give a kidney or two, don't hesitate to make a donation to the developer!
 
 #### MillionCloud - ETH / MATIC / BSC (ERC20 / BEP20)&#x20;

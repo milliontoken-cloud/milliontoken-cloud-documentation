@@ -8,7 +8,7 @@ description: Access data about the community Projects.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/community-projects" method="get" summary="Community projects List" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/community-projects" method="get" summary="Community projects List" %}
 {% swagger-description %}
 List all the community projects referenced by MillionTokenCloud.
 
@@ -64,7 +64,7 @@ Used to filter projects by tags.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/community-projects/:id" method="get" summary="Community project by ID" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/community-projects/:id" method="get" summary="Community project by ID" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -105,7 +105,7 @@ Get a community project by ID.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/community-projects/:slug" method="get" summary="Community project by Slug" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/community-projects/:slug" method="get" summary="Community project by Slug" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -120,7 +120,7 @@ Get a community project by slug.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/community-projects/:id" method="get" summary="" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/community-projects/:id" method="get" summary="" %}
 {% swagger-description %}
 
 {% endswagger-description %}

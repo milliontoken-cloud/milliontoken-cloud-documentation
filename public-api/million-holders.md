@@ -8,7 +8,7 @@ description: Access the Million Token Holders Data.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/holders" method="get" summary="Million Token Holders List" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/holders" method="get" summary="Million Token Holders List" %}
 {% swagger-description %}
 Get the Holders JSON list.
 
@@ -61,7 +61,7 @@ Select holders of the specified blockchains only
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/holders/:address" method="get" summary="Million Token Holder Details" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/holders/:address" method="get" summary="Million Token Holder Details" %}
 {% swagger-description %}
 https://api.milliontoken.cloud/holders/0x0000000000000000000000000000000000000000
 {% endswagger-description %}

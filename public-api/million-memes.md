@@ -8,7 +8,7 @@ description: Access the Million Token Memes collection.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/memes/random" method="get" summary="Get a Random Meme Image for Million Token" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/memes/random" method="get" summary="Get a Random Meme Image for Million Token" %}
 {% swagger-description %}
 Will send a different random meme picture on each request.
 {% endswagger-description %}
@@ -40,7 +40,7 @@ Get a Picture that have this exact height, or nearest.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/memes" method="get" summary="Get the meme images List" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/memes" method="get" summary="Get the meme images List" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -60,7 +60,7 @@ Default is 100.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/memes/:id" method="get" summary="Get the meme image by ID" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/memes/:id" method="get" summary="Get the meme image by ID" %}
 {% swagger-description %}
 Return the meme image by ID.
 {% endswagger-description %}
@@ -75,7 +75,7 @@ Get the meme image by id.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/memes/:slug" method="get" summary="Get the meme image by Slug" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/memes/:slug" method="get" summary="Get the meme image by Slug" %}
 {% swagger-description %}
 
 {% endswagger-description %}

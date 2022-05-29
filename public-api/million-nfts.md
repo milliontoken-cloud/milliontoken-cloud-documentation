@@ -8,7 +8,7 @@ description: Access the Million Token related NFTs data.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/million-nfts" method="get" summary="Get Million NFTs References" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/million-nfts" method="get" summary="Get Million NFTs References" %}
 {% swagger-description %}
 Get all the referenced NFTs per artist for Million Token.
 
@@ -28,7 +28,7 @@ Get the NFTs references only for a specified artist.
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/million-nfts/artists" method="get" summary="Get Million NFTs Artists" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/million-nfts/artists" method="get" summary="Get Million NFTs Artists" %}
 {% swagger-description %}
 Get all the million NFTs artists information.
 {% endswagger-description %}

@@ -8,7 +8,7 @@ description: Access data about community influencers.
 Features aren't implemented yet. Next release will come soon !
 {% endhint %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/influencers" method="get" summary="Get the influencers List" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/influencers" method="get" summary="Get the influencers List" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -37,7 +37,7 @@ Features aren't implemented yet. Next release will come soon !
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/influencers/:slug" method="get" summary="Get an influencer by Slug" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/influencers/:slug" method="get" summary="Get an influencer by Slug" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -52,7 +52,7 @@ Get an influencer by slug
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger baseUrl="https://api.milliontoken.cloud" path="/influencers/:id" method="get" summary="Get an influencer by ID" %}
+{% swagger baseUrl="https://api.millioncloud.org" path="/influencers/:id" method="get" summary="Get an influencer by ID" %}
 {% swagger-description %}
 
 {% endswagger-description %}
